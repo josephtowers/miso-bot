@@ -20,10 +20,10 @@ maintainance_mode = "maintainance" in sys.argv
 
 if DEV:
     logger.info("Developer mode is ON")
-    TOKEN = os.environ["MISO_BOT_TOKEN_BETA"]
+    TOKEN = os.environ["ODc3MzAyNzU1OTI3MTM4MzQ0.YRwp3A.PHNgYOpWbBjsgOzzJKgxQ-pIOpo"]
     prefix = "<"
 else:
-    TOKEN = os.environ["MISO_BOT_TOKEN"]
+    TOKEN = os.environ["ODc3MzAyNzU1OTI3MTM4MzQ0.YRwp3A.PHNgYOpWbBjsgOzzJKgxQ-pIOpo"]
     prefix = ">"
 
 if maintainance_mode:
